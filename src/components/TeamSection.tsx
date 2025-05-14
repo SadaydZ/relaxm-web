@@ -1,39 +1,44 @@
 import React from 'react';
+import AndersonImage from '../assets/Anderson.svg';
+import RubenImage from '../assets/Ruben.svg';
+import MelanyImage from '../assets/Melany.svg';
+import ElizabethImage from '../assets/Elizabeth.svg';
+import RosaImage from '../assets/Rosa.svg';
 
 const TeamSection: React.FC = () => {
   const teamMembersGroup1 = [
     {
-      name: "Dr. Ana Martínez",
-      role: "Directora Médica",
-      image: "https://images.pexels.com/photos/5214976/pexels-photo-5214976.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Especialista en medicina del estrés con más de 15 años de experiencia en salud mental."
+      name: "Anderson Elizarbe Vilcatoma",
+      role: "Director Ejecutivo - CEO",
+      src: AndersonImage,
+      description: "Liderazgo, pensamiento crítico y capacidad para tomar decisiones."
     },
     {
-      name: "Carlos Ruiz",
-      role: "Desarrollador Principal",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Experto en desarrollo de aplicaciones de salud y bienestar digital."
+      name: "Ruben Tito Zúñiga Arevalo",
+      role: "Director de operaciones - COO",
+      src: RubenImage,
+      description: "Visión estratégica y enfoque en resultados."
     },
     {
-      name: "Dra. Laura Sánchez",
-      role: "Psicóloga Senior",
-      image: "https://images.pexels.com/photos/5723993/pexels-photo-5723993.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Especializada en terapias de manejo del estrés y técnicas de mindfulness."
+      name: "Melany Del Castillo Paredes",
+      role: "Directora de Tecnología - CTO",
+      src: MelanyImage,
+      description: "Desempeño en el ámbito de tecnología y documentación."
     }
   ];
 
   const teamMembersGroup2 = [
     {
-      name: "Miguel Ángel Torres",
-      role: "Diseñador UX",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Creador de experiencias digitales centradas en el bienestar del usuario."
+      name: "Elizabeth Huerto Ramos",
+      role: "Directora de Finanzas - CFO",
+      src: ElizabethImage,
+      description: "Planificar, gestionar y supervisar los recursos financieros."
     },
     {
-      name: "Isabel Flores",
-      role: "Especialista en Contenido",
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Creadora de contenido educativo sobre salud mental y bienestar."
+      name: "Rosa Monzon Palomino",
+      role: "Directora de Marketing - CMO",
+      src: RosaImage,
+      description: "Habilidades analíticas, creatividad y un enfoque estratégico."
     }
   ];
 
@@ -69,11 +74,11 @@ const TeamSection: React.FC = () => {
               {/* Card content */}
               <div className="relative glass-effect p-6 rounded-2xl transform transition-all duration-500 hover:scale-[1.02] hover:purple-glow">
                 <div className="relative mb-6 overflow-hidden rounded-xl">
-                  <div className="aspect-w-1 aspect-h-1">
+                  <div className="aspect-w-1 aspect-h-1 flex items-center justify-center">
                     <img
-                      src={member.image}
+                      src={member.src}
                       alt={member.name}
-                      className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-64 object-contain transform transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/90 to-transparent"></div>
@@ -103,11 +108,11 @@ const TeamSection: React.FC = () => {
               {/* Card content */}
               <div className="relative glass-effect p-6 rounded-2xl transform transition-all duration-500 hover:scale-[1.02] hover:purple-glow">
                 <div className="relative mb-6 overflow-hidden rounded-xl">
-                  <div className="aspect-w-1 aspect-h-1">
+                  <div className="aspect-w-1 aspect-h-1 flex items-center justify-center">
                     <img
-                      src={member.image}
+                      src={member.src}
                       alt={member.name}
-                      className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-64 object-contain transform transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/90 to-transparent"></div>

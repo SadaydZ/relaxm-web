@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center justify-center md:justify-start mb-4">
               <Heart className="h-8 w-8 text-purple-500 animate-pulse" />
               <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                VidaSana
+                Relaxm Life
               </span>
             </div>
             <p className="text-purple-200 mb-4">
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-purple-900/50 pt-8 mt-8 text-center">
-          <p className="text-purple-300">&copy; 2025 VidaSana. Todos los derechos reservados.</p>
+          <p className="text-purple-300">&copy; 2025 Relaxm Life. Todos los derechos reservados.</p>
           <p className="text-purple-300 mt-2">
             Diseñado con <span className="text-purple-500">♥</span> para tu bienestar
           </p>

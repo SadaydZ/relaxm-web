@@ -6,28 +6,28 @@ const TestimonialSection: React.FC = () => {
     {
       name: "María González",
       role: "Corredora Aficionada",
-      quote: "Desde que empecé a usar VidaSana, he mejorado mi tiempo de carrera en un 15%. El seguimiento cardíaco y las recomendaciones personalizadas han sido clave.",
+      quote: "Desde que empecé a usar Relaxm Life, he mejorado mi productividad en un 15%. El seguimiento y las recomendaciones personalizadas han sido clave.",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
       rating: 5
     },
     {
       name: "Carlos Rodríguez",
       role: "Profesional de Oficina",
-      quote: "La aplicación me ha ayudado a mantenerme activo a pesar de mi trabajo sedentario. Las alertas para moverme y los ejercicios cortos son perfectos.",
+      quote: "La aplicación me ha ayudado a mantenerme activo a pesar de mi estado de ánimo. Las alertas personalizadas y los ejercicios son perfectos.",
       image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600",
       rating: 4
     },
     {
       name: "Laura Martínez",
       role: "Madre y Emprendedora",
-      quote: "Con VidaSana, finalmente logré establecer una rutina de sueño saludable. Las estadísticas me motivaron a hacer cambios positivos en mis hábitos.",
+      quote: "Con Relaxm Life, finalmente logré establecer una rutina diaria saludable. Las estadísticas me motivaron a hacer cambios positivos en mis hábitos.",
       image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
       rating: 3
     },
     {
       name: "Juan Pérez",
       role: "Entrenador Personal",
-      quote: "Como profesional del fitness, valoro la precisión de los datos que ofrece VidaSana. Mis clientes pueden hacer un seguimiento detallado de su progreso.",
+      quote: "Como profesional del fitness, valoro la precisión de los datos que ofrece Relaxm Life. Mis clientes pueden hacer un seguimiento detallado de su progreso.",
       image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=600",
       rating: 5
     },
@@ -78,7 +78,7 @@ const TestimonialSection: React.FC = () => {
             Lo que dicen nuestros <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">usuarios</span>
           </h2>
           <p className="text-xl text-purple-200 max-w-3xl mx-auto">
-            Descubre cómo VidaSana está ayudando a miles de personas a mejorar su salud y bienestar diario.
+            Descubre cómo Relaxm Life está ayudando a miles de personas a mejorar su salud y bienestar diario.
           </p>
         </div>
 

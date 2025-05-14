@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
                 }`}
               />
               <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                VidaSana
+                RelaxmLife
               </span>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Navbar: React.FC = () => {
                       }`}
                     />
                     <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                      VidaSana
+                      RelaxmLife
                     </span>
                   </button>
                   <NavLink href="#testimonios">Testimonios</NavLink>

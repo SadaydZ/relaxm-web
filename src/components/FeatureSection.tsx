@@ -24,7 +24,7 @@ const FeatureSection: React.FC = () => {
             Funciones <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Principales</span>
           </h2>
           <p className="text-xl text-purple-200 max-w-3xl mx-auto">
-            Descubre las herramientas que te ayudarán a tomar el control de tu salud y bienestar día tras día.
+            Descubre las herramientas que te ayudarán a tomar el control de tu entorno y bienestar día tras día.
           </p>
         </div>
 
@@ -37,22 +37,22 @@ const FeatureSection: React.FC = () => {
           <FeatureCard
             icon={<Activity className="w-8 h-8 text-purple-400" />}
             title="Seguimiento de Actividad"
-            description="Registra automáticamente tus pasos, distancia y calorías quemadas durante el día."
+            description="Registra automáticamente tus estados de ánimo durante el día."
           />
           <FeatureCard
             icon={<Moon className="w-8 h-8 text-purple-400" />}
-            title="Análisis del Sueño"
-            description="Comprende tus patrones de sueño y mejora tu descanso con recomendaciones personalizadas."
+            title="Análisis de Patrones"
+            description="Comprende tus patrones y mejora tu salud mental con recomendaciones personalizadas."
           />
           <FeatureCard
             icon={<PieChart className="w-8 h-8 text-purple-400" />}
-            title="Nutrición Balanceada"
-            description="Seguimiento de calorías y macronutrientes para mantener una alimentación equilibrada."
+            title="Datos Estadísticos"
+            description="Seguimiento de datos semanales para mantener una rutina equilibrada."
           />
           <FeatureCard
             icon={<Dumbbell className="w-8 h-8 text-purple-400" />}
             title="Entrenamiento Guiado"
-            description="Rutinas de ejercicio adaptadas a tus objetivos y nivel de condición física."
+            description="Rutinas antiestrés adaptadas a tus objetivos y nivel de estrés."
           />
           <FeatureCard
             icon={<Zap className="w-8 h-8 text-purple-400" />}

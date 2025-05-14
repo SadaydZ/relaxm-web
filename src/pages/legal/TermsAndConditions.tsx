@@ -22,14 +22,14 @@ const TermsAndConditions: React.FC = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">1. Aceptación de los Términos</h2>
               <p className="text-purple-200 mb-4">
-                Al acceder y utilizar VidaSana, aceptas estos términos y condiciones en su totalidad. Si no estás de acuerdo con alguna parte de estos términos, no debes usar nuestra aplicación.
+                Al acceder y utilizar Relaxm Life, aceptas estos términos y condiciones en su totalidad. Si no estás de acuerdo con alguna parte de estos términos, no debes usar nuestra aplicación.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">2. Uso del Servicio</h2>
               <p className="text-purple-200 mb-4">
-                VidaSana es una aplicación diseñada para el seguimiento de la salud y bienestar. No sustituye el consejo médico profesional.
+                Relaxm Life es una aplicación diseñada para el seguimiento de la salud y bienestar. No sustituye el consejo médico profesional.
               </p>
               <ul className="list-disc list-inside text-purple-200 mb-4">
                 <li>Debes ser mayor de 18 años para usar el servicio</li>
@@ -48,7 +48,7 @@ const TermsAndConditions: React.FC = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">4. Limitación de Responsabilidad</h2>
               <p className="text-purple-200 mb-4">
-                VidaSana no se hace responsable de cualquier daño directo, indirecto, incidental o consecuente que resulte del uso de la aplicación.
+                Relaxm Life no se hace responsable de cualquier daño directo, indirecto, incidental o consecuente que resulte del uso de la aplicación.
               </p>
             </section>
 

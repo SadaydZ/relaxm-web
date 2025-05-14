@@ -22,7 +22,7 @@ const Licenses: React.FC = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">1. Licencia de Usuario Final</h2>
               <p className="text-purple-200 mb-4">
-                VidaSana te otorga una licencia limitada, no exclusiva y no transferible para usar la aplicación de acuerdo con estos términos.
+                Relaxm Life te otorga una licencia limitada, no exclusiva y no transferible para usar la aplicación de acuerdo con estos términos.
               </p>
             </section>
 
@@ -40,7 +40,7 @@ const Licenses: React.FC = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">3. Software de Terceros</h2>
               <p className="text-purple-200 mb-4">
-                VidaSana utiliza los siguientes componentes de código abierto:
+                Relaxm Life utiliza los siguientes componentes de código abierto:
               </p>
               <ul className="list-disc list-inside text-purple-200 mb-4">
                 <li>React - MIT License</li>
@@ -52,7 +52,7 @@ const Licenses: React.FC = () => {
             <section>
               <h2 className="text-2xl font-semibold text-purple-300 mb-4">4. Propiedad Intelectual</h2>
               <p className="text-purple-200">
-                Todos los derechos, títulos e intereses en y sobre VidaSana, incluyendo todos los derechos de propiedad intelectual, son y permanecerán propiedad exclusiva de VidaSana y sus licenciantes.
+                Todos los derechos, títulos e intereses en y sobre Relaxm Life, incluyendo todos los derechos de propiedad intelectual, son y permanecerán propiedad exclusiva de Relaxm Life y sus licenciantes.
               </p>
             </section>
           </div>

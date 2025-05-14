@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 Más información
               </button>
             </div>
-            <img src={logo} alt="Logo" className="w-32 h-32 object-contain" />
+            <img src={logo} alt="Logo" className="size-40 object-contain" />
           </div>
         </div>
         <HeartRateAnimation />

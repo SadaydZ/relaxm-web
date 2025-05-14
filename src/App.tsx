@@ -9,7 +9,7 @@ import Licenses from './pages/legal/Licenses';
 function App() {
   useEffect(() => {
     // Update the page title to Spanish
-    document.title = 'VidaSana - Tu Aplicación de Salud';
+    document.title = 'Relaxm Life - Tu Aplicación de Salud';
   }, []);
 
   return (
