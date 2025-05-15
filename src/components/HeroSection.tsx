@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HeartRateAnimation from './HeartRateAnimation';
+import VideoPlayer from './VideoPlayer';
 import logo from '../assets/logo.svg';
 
 const HeroSection: React.FC = () => {
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+
   const scrollToFeatures = () => {
     const featuresSection = document.getElementById('funciones');
     if (featuresSection) {
@@ -32,14 +35,12 @@ const HeroSection: React.FC = () => {
           </p>
           <div className="flex flex-col items-center">
             <div className="flex justify-center gap-4 mb-8">
-              <a 
-                href="https://google.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <button 
+                onClick={() => setIsVideoOpen(true)}
                 className="px-8 py-3 bg-gradient-to-b from-black/50 via-black/70 to-black/90 backdrop-blur-xl text-white font-medium rounded-full hover:bg-purple-700 transform hover:scale-105 transition-all duration-200"
               >
                 Ver demo
-              </a>
+              </button>
               <button 
                 onClick={scrollToFeatures}
                 className="px-8 py-3 bg-transparent text-purple-300 font-medium rounded-full border-2 border-purple-500/30 hover:border-purple-500 hover:text-white transform hover:scale-105 transition-all duration-200"
@@ -47,28 +48,30 @@ const HeroSection: React.FC = () => {
                 Más información
               </button>
             </div>
-            <img src={logo} alt="Logo" className="size-40 object-contain" />
+            <img src={logo} alt="Logo" className="w-32 h-32 object-contain" />
           </div>
         </div>
         <HeartRateAnimation />
       </div>
       <div className="text-center">
-            <h2 className="text-4xl font-bold text-white mb-4">
-            Próximamente <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Disponible</span>
-          </h2>
-            <div className="flex justify-center items-center space-x-6">
-              <img 
-                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                alt="Download on the App Store"
-                className="h-[45px] w-auto opacity-60 hover:opacity-100 transition-opacity cursor-not-allowed"
-              />
-              <img 
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png"
-                alt="Get it on Google Play"
-                className="h-[60px] w-auto opacity-60 hover:opacity-100 transition-opacity cursor-not-allowed"
-              />
-            </div>
-          </div>
+        <h2 className="text-4xl font-bold text-white mb-4">
+          Próximamente <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Disponible</span>
+        </h2>
+        <div className="flex justify-center items-center space-x-6">
+          <img 
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            alt="Download on the App Store"
+            className="h-[45px] w-auto opacity-60 hover:opacity-100 transition-opacity cursor-not-allowed"
+          />
+          <img 
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png"
+            alt="Get it on Google Play"
+            className="h-[60px] w-auto opacity-60 hover:opacity-100 transition-opacity cursor-not-allowed"
+          />
+        </div>
+      </div>
+
+      <VideoPlayer isOpen={isVideoOpen} onClose={() => setIsVideoOpen(false)} />
     </section>
   );
 };
