@@ -1,4 +1,4 @@
-import React from 'react';
+{/* import React from 'react';
 import AndersonImage from '../assets/Anderson.svg';
 import RubenImage from '../assets/Ruben.svg';
 import MelanyImage from '../assets/Melany.svg';
@@ -44,7 +44,7 @@ const TeamSection: React.FC = () => {
 
   return (
     <section id="equipo" className="min-h-screen py-20 relative overflow-hidden bg-gradient-to-b from-[#2e1065] via-[#4c1d95] to-[#2e1065]">
-      {/* Background gradient blobs */}
+      {/* Background gradient blobs *
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="absolute top-10 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full filter blur-3xl animate-blob"></div>
         <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-purple-800/20 rounded-full filter blur-3xl animate-blob animation-delay-2000"></div>
@@ -61,17 +61,17 @@ const TeamSection: React.FC = () => {
           </p>
         </div>
 
-        {/* First Group - 3 members */}
+        {/* First Group - 3 members *
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {teamMembersGroup1.map((member, index) => (
             <div 
               key={index} 
               className="group relative"
             >
-              {/* Hover glow effect */}
+              {/* Hover glow effect *
               <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-purple-900 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
               
-              {/* Card content */}
+              {/* Card content *
               <div className="relative glass-effect p-6 rounded-2xl transform transition-all duration-500 hover:scale-[1.02] hover:purple-glow">
                 <div className="relative mb-6 overflow-hidden rounded-xl">
                   <div className="aspect-w-1 aspect-h-1 flex items-center justify-center">
@@ -95,17 +95,17 @@ const TeamSection: React.FC = () => {
           ))}
         </div>
 
-        {/* Second Group - 2 members */}
+        {/* Second Group - 2 members *
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {teamMembersGroup2.map((member, index) => (
             <div 
               key={index} 
               className="group relative"
             >
-              {/* Hover glow effect */}
+              {/* Hover glow effect *
               <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-purple-900 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
               
-              {/* Card content */}
+              {/* Card content *
               <div className="relative glass-effect p-6 rounded-2xl transform transition-all duration-500 hover:scale-[1.02] hover:purple-glow">
                 <div className="relative mb-6 overflow-hidden rounded-xl">
                   <div className="aspect-w-1 aspect-h-1 flex items-center justify-center">
@@ -134,3 +134,4 @@ const TeamSection: React.FC = () => {
 };
 
 export default TeamSection;
+*/}
