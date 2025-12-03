@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import FeatureSection from '../components/FeatureSection';
 import ServicesSection from '../components/ServicesSection';
-import TeamSection from '../components/TeamSection';
+//import TeamSection from '../components/TeamSection';
 import TestimonialSection from '../components/TestimonialSection';
 import DevelopmentBanner from '../components/DevelopmentBanner';
 import Footer from '../components/Footer';
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <HeroSection />
       <FeatureSection />
       <ServicesSection />
-      <TeamSection />
+      {/*<TeamSection />*/}
       <TestimonialSection />
       <DevelopmentBanner />
       <Footer />
